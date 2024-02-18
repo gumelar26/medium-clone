@@ -1,0 +1,10 @@
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+lib64
+*.cpython-38.pyc
+app/__pycache__/
+__pycache__/
