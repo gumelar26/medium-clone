@@ -9,13 +9,14 @@ class UserCreate(UserBase):
     password: str
     
 class UserGet(UserBase):
-    token: str
+    token: str | None
     created_at: datetime
     modified_at: datetime
     status: str
 
 class UserUpdate(UserBase):
-    token : str | None = None
-    modified_at: str | None = None
+    password: str
+    token : str | None
+    modified_at: str
     status: str
     
